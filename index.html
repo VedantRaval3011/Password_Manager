@@ -1,0 +1,70 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PassX - Your Personal Password Manager</title>
+        <script src="https://kit.fontawesome.com/1e03b76fd9.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <div class="logo">PassX</div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+        <div class="mid-container">
+            <div class="heading">
+                <h2>Password Manager</h2>
+            </div>
+            <div class="content">
+                <p>Welcome to PassX, the ultimate solution for safeguarding your online presence. In an era where cyber threats are more prevalent than ever, protecting your digital identity is paramount. Our state-of-the-art password manager offers you unparalleled security, convenience, and peace of mind.</p>
+                <h3>Your Passwords</h3>
+                
+                <div class="table" >
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Website</th>
+                                <th>Username</th>
+                                <th>Password</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableBody">
+                            
+                        </tbody>
+                        
+                    </table>
+                    <p id="message"></p>
+                </div>
+            <div class="center-form">
+                    <div class="form-container">
+                        <form id="passwordForm" >
+                            <h3>Add a Password</h3>
+                            <div class="form-group">
+                                <label for="website">Website</label>
+                                <input type="text" name="website" id="website" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="username">Username</label>
+                                <input type="text" name="username" id="username" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password" required>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
